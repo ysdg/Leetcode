@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# for vscode debug
+main
+*.json
