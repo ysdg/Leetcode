@@ -34,3 +34,6 @@
 # for vscode debug
 main
 *.json
+
+*.ilk
+*.pdb
