@@ -9,7 +9,10 @@
 			"type": "cppdbg",
 			"request": "launch",
 			"program": "${workspaceFolder}/build/${fileBasenameNoExtension}",
-			"args": [],
+			"args": [
+				"--gtest_output=json:${workspaceFolder}/out/Test_${fileBasenameNoExtension}_report.json",
+				"--gtest_output=xml:${workspaceFolder}/out/Test_${fileBasenameNoExtension}_report.xml"
+			],
 			"stopAtEntry": false,
 			"cwd": "${workspaceFolder}/build",
 			"environment": [],

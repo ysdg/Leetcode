@@ -36,3 +36,4 @@
 *.pdb
 build/
 .vscode/extensions.json
+out/
