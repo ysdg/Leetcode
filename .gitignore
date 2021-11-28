@@ -32,10 +32,7 @@
 *.app
 
 # for vscode debug
-main
-*.json
-
 *.ilk
 *.pdb
-
 build/
+.vscode/extensions.json
