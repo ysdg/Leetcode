@@ -52,7 +52,29 @@
 		"stdexcept": "cpp",
 		"streambuf": "cpp",
 		"cinttypes": "cpp",
-		"typeinfo": "cpp"
+		"typeinfo": "cpp",
+		"chrono": "cpp",
+		"thread": "cpp",
+		"stop_token": "cpp",
+		"coroutine": "cpp",
+		"any": "cpp",
+		"bitset": "cpp",
+		"compare": "cpp",
+		"complex": "cpp",
+		"concepts": "cpp",
+		"condition_variable": "cpp",
+		"list": "cpp",
+		"unordered_set": "cpp",
+		"ratio": "cpp",
+		"mutex": "cpp",
+		"numbers": "cpp",
+		"semaphore": "cpp",
+		"typeindex": "cpp",
+		"variant": "cpp",
+		"*.ipp": "cpp",
+		"codecvt": "cpp",
+		"forward_list": "cpp",
+		"valarray": "cpp"
 	},
 	"editor.tokenColorCustomizations": {
 		"textMateRules": [
@@ -81,5 +103,8 @@
 			"name":"Test_${filename}",
 			"pattern": "${workspaceFolder}/{build,Build,BUILD,out,Out,OUT}/*",
 		}
+	],
+	"gtest-adapter.debugConfig": [
+		"g++ - Build and debug active file"
 	]
 }
